@@ -1,0 +1,23 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "tinder app for developers",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "backend",
+    "reactjs",
+    "frontend",
+    "MERN",
+    "stack"
+  ],
+  "author": "Shiven Garg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
