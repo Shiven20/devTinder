@@ -64,7 +64,7 @@ requestRouter.post("/request/review/:status/:requestId", userAuth, async(req,res
             return res.status(400).json({message:"Status not allowed"})
         }
         const connectionRequest= await ConnectionRequestModel.findOne({
-            fromUserId:requestId,
+            _id:requestId,
             toUserId: loggedInUser._id,
             status:"interested"
         })
